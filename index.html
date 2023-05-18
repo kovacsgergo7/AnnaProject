@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Színésznők Szombathelyen</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <section class="hero">
+    <section>
         <nav>
-            <div class="container">
+            <div class="nav-items container">
                 <div class="logo"><img src="img/WSSZlogo.png" alt="logo"></div>
                 <div class="nav-title">Színésznők Szombathelyen</div>
                 <div class="nav-button">
@@ -19,11 +20,13 @@
             </div>
         </nav>
         <header>
-            <div class="hero-img">
-                <img src="img/wsszépület.jpg" alt="">
-            </div>
-            <div class="hero-text">
-                <h1>"Színház az egész világ,És színész benne minden férfi és nő..."</h1>
+            <div class="row container">
+                <div class="hero-img">
+                    <img src="img/wsszépület.jpg" alt="">
+                </div>
+                <div class="hero-text">
+                    <h1>"Színház az egész világ, És színész benne minden férfi és nő..."</h1>
+                </div>
             </div>
         </header>
         
@@ -31,8 +34,10 @@
 
     <section>
         <div class="container">
-            <h2>Az oldal célja</h2>
-            <p>Jelen oldal szeretné bemutatni a színház iránt érdeklődő emberek számára a szombathelyi színésznőket. Mivel legtöbbször csak a férfiak vannak kiemelve, ezért szeretném most kicsit a nőket is előtérbe helyezni. Most választ kapnak arra, milyen előadásokban játszanak a helyi színésznők és mit lehet róluk tudni.</p>
+            <div class="centered">
+                <h2>Az oldal célja</h2>
+                <p>Jelen oldal szeretné bemutatni a színház iránt érdeklődő emberek számára a szombathelyi színésznőket. Mivel legtöbbször csak a férfiak vannak kiemelve, ezért szeretném most kicsit a nőket is előtérbe helyezni. Most választ kapnak arra, milyen előadásokban játszanak a helyi színésznők és mit lehet róluk tudni.</p>
+            </div>
             
             <div class="row">
                 <div>
@@ -44,10 +49,29 @@
                     </ul>
                 </div>
                 <div>
-                    <img src="img/map.png" alt="">
+                    <a href="https://goo.gl/maps/6NZwLQprqHf2777F6" target="_blank"><img src="img/map.png" alt=""></a>
                 </div>
             </div>
         </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="centered"><h2>Színésznők</h2></div>
+            <div class="szinesznok">
+                <div class="grid-item"><img src="img/bálint éva.jpg" alt=""><p class="name">Bálint Éva</p></div>
+                <div class="grid-item"><img src="img/csonka szilvia.jpg" alt=""><p class="name">Csonka Szilvia</p></div>
+                <div class="grid-item"><img src="img/herman flóra.jpg" alt=""><p class="name">Herman Flóra</p></div>
+                <div class="grid-item"><img src="img/keller-dénes emïke.jpg" alt=""><p class="name">Keller-Dénes Emőke</p></div>
+                <div class="grid-item"><img src="img/mari dorottya.jpg" alt=""><p class="name">Mari Dorottya</p></div>
+                <div class="grid-item"><img src="img/nagy bakonyi boglárka.jpg" alt=""><p class="name">Nagy-Bakonyi Boglárka</p></div>
+                <div class="grid-item"><img src="img/nagy cili.jpg" alt=""><p class="name">Nagy Cili</p></div>
+                <div class="grid-item"><img src="img/németh judit.jpg" alt=""><p class="name">Németh Judit</p></div>
+            </div>
+
+            <a href="szinesznok.html" class="btn">Részletek</a>
+        </div>
+
     </section>
 </body>
 </html>

@@ -51,6 +51,29 @@ ul{
     font-size: clamp(15px, 4vw, 26px);
     border-bottom: 3px solid hsl(0, 0%, 73%);
 }
+#nav-icon{
+    cursor: pointer;
+    position: relative;
+    z-index: 9;
+}
+.nav-list{
+    display: none;
+    position: absolute;
+    right:0;
+    top:0;
+    bottom:0;
+    width: 200px;
+    background: grey;
+}
+.nav-list>ul{
+    margin-top: 100px;
+}
+#menu-input{
+    display: none;
+}
+#menu-input:checked ~ .nav-list{
+    display: block;
+}
 
 .row{
     padding-block: 100px;

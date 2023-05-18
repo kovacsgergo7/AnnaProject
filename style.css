@@ -19,7 +19,7 @@ a{
     text-decoration: none;
     color: black;
 }
-li{
+ul{
     list-style: none;
 }
 .btn{
@@ -45,9 +45,10 @@ li{
     max-width: 100px;
 }
 .nav-title{
+    text-align: center;
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 26px;
+    font-size: clamp(15px, 4vw, 26px);
     border-bottom: 3px solid hsl(0, 0%, 73%);
 }
 
@@ -70,4 +71,16 @@ li{
 .name{
     text-align: center;
     font-weight: bold;
+}
+
+.actress{
+    padding-block:50px;
+}
+.actress-name{
+    padding-block:15px;
+    border-bottom: 2px solid lightgrey;
+}
+
+.plays{
+    list-style:inside;
 }
